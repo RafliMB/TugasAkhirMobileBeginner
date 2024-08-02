@@ -1,0 +1,50 @@
+1. Apakah yang dimaksud dengan Variable dan tipe data didalam bahasa Kotlin? Jelaskan jenis-jenisnya!
+
+    a. Variable
+        Simbol yang digunakan untuk menyimpan nilai.
+
+        Jenis-jenis varible:
+        - Variable Mutable (var) : variable yang dapat diubah nilainya
+        - Varibale Immutable (val) : varibale yang tidak dapat diubah nilainya atau tetap
+
+    b. Tipe data
+        Tipe data adalah jenis nilai yang akan disimpan kedalam variable.
+
+        Jenis-jenis tipe data:
+        - Int (Integer) : tipe data angka bilangan bulat, contoh 1,2,3...
+        - String : tipe data teks, contoh "Kapal laut"
+        - Float : tipe data angka bilangan pecahan, contoh 12.12
+        - Double : tipe data bilangan pecahan, tapi punya ukuran penyimpanan yang lebih besar
+        - Boolean : tipe data yang hanya bernilai True dan False
+        - Char : tipe data karakter, contoh 'A'
+
+________________________________________________________________________________________________________________________________________
+
+2. Ada berapakah percabangan dalam bahasa pemrograman Kotlin? Sebutkan dan jelaskan perbedaan dari masing-masing percabangan tersebut!
+
+    Ada 4 jenis percabangan dalam bahasa pemrograman Kotlin
+
+    - Percabangan (if)
+        Apabila suatu kondisi memenuhi syarat tertentu, maka blok kode ekspresi akan dieksekusi
+
+    - Percabangan (if/else)
+        Sama seperti percabangan if, namun memiliki dua kondisi dan blok kode yang ingin dieksekusi. if (True): else (False)
+
+    - Percabangan (if/else if/else)
+        Masih sama seperti percabangan if, namun memiliki lebih dari dua kondisi dan blok kode yang ingin dieksekusi
+
+    - Percabangan (when)
+        Percabangan yang mirip dengan (if/else if/else), tetapi penulisannya lebih simpel
+
+________________________________________________________________________________________________________________________________________
+
+3. Apakah yang dimaksud tentang function dalam bahasa Kotlin?
+
+    Function adalah blok dari kode yang mempunyai satu tugas yang spesifik tergantung dari kode dalam function
+
+________________________________________________________________________________________________________________________________________
+
+4. Apa yang dimaksud dengan function generic dalam kotlin? Jelaskan perbedaannya!!
+
+    Function generic merupakan fungsi yang dirancang untuk bekerja dengan berbagai tipe data tanpa harus menduplikasi kode untuk setiap
+    tipe yang berbeda. Perbedaannya adalah function generic lebih mudah untuk mendeklarasikan tipe data yang berbeda dalan satu function
